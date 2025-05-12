@@ -1,7 +1,5 @@
 # YelpoSphere: An end-to-end data pipeline on GCP
 
-![](imgs/yelp-banner.png)
-
 YelpoSphere is a data pipeline that *extracts, transforms, and loads* data from Yelp's public dataset into a
 GCP environment and performs various analyses on the data. The pipeline combines **GCS, BigQuery, Dataproc,
 Cloud Composer, Cloud Run and Cloud Build** for data processing.
@@ -95,9 +93,3 @@ Here are a few things that I think can be improved:
 * Adding more data quality tests on DBT models.
 * Research about any easier way to orchestrate DBT with Airflow (although I did a LOT of research and asked a lot of different communities about this)
 * CI/CD pipeline.
-
-# Conclusion
-
-This was my capstone project for the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).
-
-I hope you like it. If you have any questions about the project, face any problems while following along or have a suggestion for me, feel free to comment or drop me a DM on [Twitter](https://twitter.com/itsadityagupta) or [Linkedin](https://www.linkedin.com/in/itsadityagupta/).
